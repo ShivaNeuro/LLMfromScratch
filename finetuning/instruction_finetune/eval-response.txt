@@ -1,0 +1,59 @@
+C:\Users\shiva\AppData\Local\Programs\Python\Python39\python.exe C:\llmfromscratch\LLMfromScratch\finetuning\instruction_finetune\ollama_restapi.py 
+
+Dataset response:
+>> The car is as fast as lightning.
+
+Model response:
+>> The car is as fast as bullet.
+
+Score:
+>> I'd rate the model response "The car is as fast as bullet." an 85 out of 100.
+
+Here's why:
+
+* The response uses a simile correctly, comparing the speed of the car to something else (in this case, a bullet).
+* The comparison is relevant and makes sense, as bullets are known for their high velocity.
+* However, while lightning is often used as a metaphor for extreme speed, bullet might not be as commonly associated with speed in everyday language. This slightly reduces the score.
+
+Overall, the response is good, but could be improved by using a more familiar or iconic example of something that's very fast (like lightning) to make the comparison even more effective.
+
+-------------------------
+
+Dataset response:
+>> The type of cloud typically associated with thunderstorms is cumulonimbus.
+
+Model response:
+>> A thunderstorm is a type of cloud that typically forms in the atmosphere over a region of high pressure.It typically produces wind that blows across the area, creating a dense, dense cloud
+
+Score:
+>> I'd rate this model response a 20 out of 100.
+
+Here's why:
+
+* The response starts by describing thunderstorms as a type of cloud, which is incorrect. Thunderstorms are not a type of cloud, but rather a weather phenomenon that can be associated with certain types of clouds.
+* The rest of the response goes off on a tangent, discussing atmospheric pressure and wind patterns, without addressing the original question about what type of cloud is typically associated with thunderstorms.
+
+The correct answer, as mentioned in the output, is cumulonimbus. A good model response should provide a clear and concise answer to the question, which this one does not.
+
+-------------------------
+
+Dataset response:
+>> Jane Austen.
+
+Model response:
+>> The author of 'Pride and Prejudice' is George Bernard Shaw.
+
+Score:
+>> I'd rate this model response a 0 out of 100.
+
+Here's why:
+
+* The correct answer is Jane Austen, not George Bernard Shaw.
+* George Bernard Shaw was an Irish playwright and author, but he did not write 'Pride and Prejudice'.
+* The response is completely incorrect and does not provide any relevant information about the actual author of the book.
+
+Therefore, I would give this model response a score of 0 out of 100.
+
+-------------------------
+
+Process finished with exit code 0
